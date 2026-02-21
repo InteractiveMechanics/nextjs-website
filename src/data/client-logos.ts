@@ -15,5 +15,12 @@ export const clientLogos: ClientLogo[] = [
   { id: "chop", logo: "/projects/chop/chop_logo.png", clientName: "Children's Hospital of Philadelphia" },
   { id: "timmyawards", logo: "/timmyaward_logo.png", clientName: "TIMMY Awards" },
   { id: "esphs", logo: "/projects/esphs/esphs_logo.png", clientName: "Eastern State Penitentiary" },
+  { id: "smithsonian", logo: "/projects/smithsonian/smithsonian_logo.png", clientName: "Smithsonian Institution" },
+  { id: "jefferson", logo: "/projects/jefferson/jefferson_logo.png", clientName: "Thomas Jefferson University" },
   { id: "awwwards", logo: "/awwwards_logo.png", clientName: "Awwwards" },
+  { id: "natgeo", logo: "/natgeo_logo.png", clientName: "National Geographic Society" },
+  { id: "911museum", logo: "/911_logo.png", clientName: "9/11 Memorial & Museum" },
+  { id: "webby", logo: "/webby_logo.png", clientName: "Webby Awards" },
+  { id: "nps", logo: "/nps_logo.png", clientName: "National Park Service" },
+  { id: "fords", logo: "/fords_logo.png", clientName: "Ford's Theatre" },
 ];
