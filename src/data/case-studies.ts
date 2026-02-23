@@ -136,7 +136,7 @@ export const caseStudies: CaseStudy[] = [
   { 
     id: "graveyard-of-the-atlantic", 
     logo: "/clients/graveyard_logo.png", 
-    clientName: "The Columbus Museum", 
+    clientName: "Graveyard of the Atlantic Museum", 
     image: "/projects/graveyard/graveyard_tile.jpg",
     heroImage: "/projects/graveyard/graveyard_image_01.jpg",
     projectName: "Graveyard of the Atlantic Digital Interactives",

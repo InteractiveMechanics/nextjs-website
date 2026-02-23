@@ -45,9 +45,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   return (
     <div>
       {/* Hero: full-width rounded image with overlay (client name + project name) */}
-      <section className="px-4 sm:px-6 pt-6 sm:pt-2 pb-0 bg-brand-background">
+      <section className="px-4 sm:px-6 pt-8 pb-6 sm:pt-4 sm:pb-0 bg-brand-background">
         <FadeInSection>
-        <div className="relative w-full aspect-21/9 max-h-[700px] rounded-2xl overflow-hidden bg-surfaces">
+        <div className="relative w-full aspect-[4/3] sm:aspect-video md:aspect-[21/9] max-h-[400px] sm:max-h-[600px] md:max-h-[700px] rounded-2xl overflow-hidden bg-surfaces">
           {heroImage ? (
             <Image
               src={heroImage}
@@ -61,7 +61,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             <div className="absolute inset-0 bg-linear-to-br from-sky-blue-light/30 to-blue-green/20" />
           )}
           <div className="absolute inset-0 bg-linear-to-t from-black/70 via-transparent to-transparent" />
-          <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8 md:p-10 text-white text-center">
+          <div className="absolute bottom-0 left-0 right-0 p-5 sm:p-8 md:p-10 text-white text-center">
             <p className="text-sm sm:text-base font-semibold uppercase tracking-wider text-white/90 mb-1">
               {project.clientName}
             </p>
